@@ -9,13 +9,13 @@ pipeline {
 
     stage('Test02') {
       parallel {
-        stage('Test02') {
+        stage('Test02_01') {
           steps {
             echo 'Test02_01'
           }
         }
 
-        stage('') {
+        stage('Test02_02') {
           steps {
             echo 'Test02_02'
           }
